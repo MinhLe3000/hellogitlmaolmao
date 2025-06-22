@@ -14,6 +14,8 @@ except ImportError:
 
 app = FastAPI()
 # code test git 
+
+# bủ vl
 class DepartmentClassifier:
     def __init__(self, keywords_file):
         self.tokenizer = AutoTokenizer.from_pretrained("vinai/phobert-base", use_auth_token=False)
