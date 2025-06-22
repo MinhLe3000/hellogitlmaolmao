@@ -13,7 +13,7 @@ except ImportError:
     print("Thư viện underthesea không được tìm thấy. Sử dụng phương pháp tokenize đơn giản.")
 
 app = FastAPI()
-
+# code test git 
 class DepartmentClassifier:
     def __init__(self, keywords_file):
         self.tokenizer = AutoTokenizer.from_pretrained("vinai/phobert-base", use_auth_token=False)
