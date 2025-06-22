@@ -14,7 +14,7 @@ except ImportError:
 
 app = FastAPI()
 # code test git 
-
+#hello
 # bủ vl
 class DepartmentClassifier:
     def __init__(self, keywords_file):
